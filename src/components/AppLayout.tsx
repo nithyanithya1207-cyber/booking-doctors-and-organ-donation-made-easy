@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "@tanstack/react-router";
 import type { ReactNode } from "react";
-import { HeartPulse, LogOut } from "lucide-react";
+import { Database, LogOut } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/lib/auth";
@@ -23,7 +23,7 @@ export function AppLayout({ children }: { children: ReactNode }) {
       <header className="border-b bg-card">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-4 px-4 py-3">
           <Link to="/dashboard" className="flex items-center gap-2 font-semibold text-primary">
-            <HeartPulse className="h-5 w-5" /> MediLink
+            <Database className="h-5 w-5" /> MediLink
           </Link>
           <nav className="flex flex-wrap gap-1 text-sm">
             {links.map((l) => (

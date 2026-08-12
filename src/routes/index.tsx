@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Bell, CalendarCheck, HeartHandshake, HeartPulse, ShieldCheck, Stethoscope, Users } from "lucide-react";
+import { Bell, CalendarCheck, Database, HeartHandshake, HeartPulse, ShieldCheck, Stethoscope, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -38,7 +38,7 @@ function Index() {
       <header className="border-b bg-card">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
           <span className="flex items-center gap-2 font-semibold text-primary">
-            <HeartPulse className="h-5 w-5" /> MediLink
+            <Database className="h-5 w-5" /> MediLink
           </span>
           <Link to="/auth">
             <Button size="sm">Login / Register</Button>
