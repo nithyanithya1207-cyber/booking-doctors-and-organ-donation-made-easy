@@ -30,6 +30,9 @@ SUPABASE_PUBLISHABLE_KEY="sb_publishable_KsPspuVeedz7g7qlMEWQqQ_6KVjRJXV"
 
 These keys tell the app which database to read from and write to. They are already included in the project, so the connection works immediately.
 
+**Current database status:** The `doctors` table has been seeded with 8 sample doctors (see `supabase/seed.sql`). You can view them in the Lovable Cloud backend table view or in the **Doctors** page after signing in.
+
+
 ---
 
 ## 3. How to run the website in Lovable
