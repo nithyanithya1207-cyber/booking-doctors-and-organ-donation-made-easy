@@ -1,6 +1,6 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import { HeartPulse } from "lucide-react";
+import { Database } from "lucide-react";
 import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
 import { Button } from "@/components/ui/button";
@@ -89,7 +89,7 @@ function AuthPage() {
       <Card className="w-full max-w-lg">
         <CardHeader className="text-center">
           <div className="mx-auto flex items-center gap-2 text-primary">
-            <HeartPulse className="h-6 w-6" />
+            <Database className="h-6 w-6" />
             <span className="text-lg font-semibold">MediLink</span>
           </div>
           <CardTitle className="mt-2">Doctor Booking &amp; Organ Donation</CardTitle>
