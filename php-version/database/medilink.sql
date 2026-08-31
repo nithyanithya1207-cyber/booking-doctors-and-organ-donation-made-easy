@@ -112,7 +112,7 @@ INSERT INTO doctors (name, specialization, hospital, city, fee, available_days, 
 
 -- Demo admin account — email: admin@medilink.test  password: admin123
 INSERT INTO users (email, password_hash, full_name, phone, city, blood_group)
-VALUES ('admin@medilink.test', '$2y$10$e0NRxs5m4V0GaP0R6oQ0y.pP4LhVvRZ0m5R8h4t2yV1n0Q8dq2Rk6',
+VALUES ('admin@medilink.test', '$2y$10$BYslexMxSN7pRpKUi1C61OzBbBqB/bypCo238F3xRjZp4XGEwP.5e',
         'MediLink Admin', '+91 90000 00000', 'Delhi', 'O+');
 INSERT INTO user_roles (user_id, role)
 SELECT id, 'admin' FROM users WHERE email = 'admin@medilink.test';
